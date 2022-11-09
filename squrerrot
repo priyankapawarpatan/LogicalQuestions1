@@ -1,0 +1,22 @@
+find squareroot of any number.
+package com.Aptiquestions;
+
+import java.util.Scanner;
+
+public class demo12 {
+
+	public static void main(String[] args) {
+		double num,sq;
+		System.out.println("Enter any Number");
+		Scanner sc=new Scanner(System.in);
+		num=sc.nextDouble();
+		sq=Math.sqrt(num);
+		System.out.println(sq);
+		
+	}
+
+}
+output=
+Enter any Number
+8
+2.8284271247461903
