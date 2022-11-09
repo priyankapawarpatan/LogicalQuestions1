@@ -1,0 +1,33 @@
+
+Given a method with pan card no as string input .Write code to validate PAN no against following rules:
+1-There must be 8 characters
+2-First 3 letters must be alphabets followed by 4 digit number   
+and ends with alphabet.
+3- All alphabets should be in capital case
+4- If pan card no is valid return 1 as output else return 2 as output
+
+
+package com.Aptiquestions;
+
+import java.util.Scanner;
+
+public class PanCardValidation {
+	
+
+	     public static void main (String[] args) {
+	         Scanner in=new Scanner(System.in);
+	         System.out.println("Enter the PAN no:");
+	         String s1=in.nextLine();
+	         if(s1.matches("[A-Z]{5}[0-9]{4}[A-Z]{1}"))
+	         {
+	             System.out.println("Valid PAN no");
+	         }
+	         else{
+	             System.out.println("Invalid PAN no");
+	         }
+	     }}
+	 output=
+   Enter the PAN no:
+ERTYU3456Y
+Valid PAN no
+
