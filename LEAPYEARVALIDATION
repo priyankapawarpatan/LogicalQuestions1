@@ -1,0 +1,30 @@
+find even and ood number.
+package com.Aptiquestions;
+
+import java.util.Scanner;
+
+public class demo9 {
+
+	public static void main(String[] args) {
+		int n;
+		System.out.println("Enter any Number");
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+	   while(n>0) {
+		if(n %2==0) {
+			System.out.println("Even number");
+			break;
+			
+			
+		}
+		else {
+			System.out.println("n is odd number");
+			break;
+			
+		}
+	}}}
+
+
+output=Enter any Number
+23
+n is odd number
