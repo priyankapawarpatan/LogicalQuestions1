@@ -1,0 +1,16 @@
+How to count occurence of character in a string.
+package com.Aptiquestions;
+
+public class test {
+
+	public static void main(String[] args) {
+		String s="object oriented Programming Language";
+		int Total_count=s.length();
+		int Count_of_o=s.replace("o","").length();
+		int count=Total_count-Count_of_o;
+		System.out.println("Occurence of o is =" +count);
+	}
+
+}
+output is-
+Occurence of o is =3
