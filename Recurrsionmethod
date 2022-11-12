@@ -1,0 +1,29 @@
+WAP to find the factorial of the number using Recurrsion 
+package part2;
+
+public class recurrsionmethod {
+	int fact=1;
+          int calfact(int num) {
+        	  if(num>1) {
+        		 fact=fact*num; 
+			calfact(num-1);
+			}
+			return fact;
+			 
+          }
+	public static void main(String[] args) {
+		int num=5;
+		recurrsionmethod r=new recurrsionmethod();
+		
+		int result=r.calfact(num);
+		System.out.println( "Factorial of number="+result);
+		
+		
+          
+	}
+
+}
+
+output=
+Factorial of number=120
+
