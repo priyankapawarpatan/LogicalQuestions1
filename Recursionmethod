@@ -1,4 +1,4 @@
-WAP to find the factorial of the number using Recurrsion 
+WAP to find the factorial of the number using Recursion 
 package part2;
 
 public class recurrsionmethod {
