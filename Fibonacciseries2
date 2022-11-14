@@ -1,0 +1,29 @@
+WAP to print Finonacciseries using Recursion.
+package com.practiceQuestions;
+
+public class test7 {
+	int a=0,b=1,c;
+	
+	void printfibo(int num) {
+		if(num>=1) {
+		c=a+b;
+		System.out.println(c);
+		a=b;
+		b=c;
+		printfibo(num-1);
+		
+	}}
+
+	public static void main(String[] args) {
+		int num=5;
+		test7 t7=new test7();
+		t7.printfibo(num);
+
+	}
+
+}
+output=1
+2
+3
+5
+8
